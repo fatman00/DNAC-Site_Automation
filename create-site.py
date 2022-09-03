@@ -130,7 +130,7 @@ for key in data["area"]:
     response = create_area_request(key["name"], key["parentName"])
     print(json.dumps(response))
 
-print "\n\n---------- Area Creation complete !! ----------\n\n"
+print("\n\n---------- Area Creation complete !! ----------\n\n")
 
 for key in data["building"]:
     print(key["area_name"], key["area_parentName"], key["bld_name"], key["bld_address"])
